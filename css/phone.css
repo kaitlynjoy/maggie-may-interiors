@@ -1,0 +1,437 @@
+/* CSS Document */
+/* -------------------------- CSS Reset --------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------------- My CSS Starts Here ------------------------ */
+
+body {
+	font-family: 'Halant', Minion, 'Minion Pro', georgia, serif;
+}
+
+
+/* ------------------ Header / Navigation --------------------------------- */
+
+.wrapper {
+	background-image: url('../img/bg-stucco.jpg');
+	background-repeat: repeat;
+}
+
+header {
+	width: 98%;
+	margin: 0 auto;
+	display: block;
+}
+
+#m_logo {
+	float: left;
+	max-width: 15%;
+	padding: 20px 10px;
+}
+
+
+.no-mobile {
+	display: none;
+}
+
+h1 {
+	padding-top: 20px;
+	font-family: 'Parisienne', cursive;
+	font-size: 1.7em;
+	margin-left: 1.5%;
+	margin-top: 10px;
+	float: left;
+	color: #000;
+	text-decoration: none;
+}
+
+#socialmedia {
+		display: none;
+}
+
+nav {
+	display: none;
+}
+
+div.clear {
+	clear:both;
+}
+
+/* ----------------------- Main Content----------------------- */
+
+#maincontent {
+	padding: 20px 5%;
+	position: relative;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+#maincontent p {
+	margin-bottom: 20px;
+	text-indent: 1em;
+	font-size: 1.15em;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+#maincontent h2 a {
+	background-color: #bbb7a3;
+	padding: 10px 10px 10px 20px;
+	margin: 10px 20px;
+	float: right;
+	border-right:solid 8px #342925;
+	border-radius: 10px;
+	color: #000;
+	font-size: 1.4em;
+	text-decoration: none;
+	text-align: right;
+	-webkit-transition: all .25s;
+	-moz-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	background-image: url('../img/bg-stucco.jpg');
+	background-repeat: repeat;
+	opacity: 1;
+
+}
+
+#maincontent h2 a:hover {
+	opacity: .9;
+}
+
+
+.accent p {
+	font-size: .8em; 
+}
+
+
+div.accent {
+	color: #2d2d2d;
+	font-size: 1em;
+	text-align: center;
+	width: 100%;
+	padding: 20px 0;
+	border-top: solid 4px #eee;
+	font-style: italic;
+}
+
+#home-img-container {
+	width: 90%;
+	max-width: 1100px;
+	margin: 0 auto;
+	height: 250px;
+	background-image: url('../img/homeimg.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+#br-corner {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#bl-corner {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#tr-corner {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#tl-corner {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+h4 a{
+	color: #fff;
+	margin-right: 5px;
+	background-color: #17578b;
+	padding: 5px 5px 3px 5px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 1em;
+	position: relative;
+	top: -1px;
+	box-shadow: #898989 2px 2px;
+	text-decoration: none;
+	display: block;
+}
+
+img.shadowimg {
+	border-radius: 20px;
+}
+
+p.author {
+	color: #17578b;
+}
+
+#column1 img{
+	display: block;
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+
+#third1 {
+	min-height: 200px;
+	background-image: url('../img/paint-colors.jpg');
+	background-size: cover;
+	border-radius: 10px;
+}
+
+#third2 {
+	min-height: 200px;
+	background-image: url('../img/interiors.jpg');
+	background-size: cover;
+	border-radius: 10px;
+	
+}
+
+#third3 {
+	min-height: 200px;
+	background-image: url('../img/shopping-help.jpg');
+	background-size: cover;
+	border-radius: 10px;
+}
+
+#third2, #third3 {
+	margin-top: 30px;
+}
+
+#third1 p, #third2 p, #third3 p {
+	padding: 10px;
+	text-indent: 0px;
+	background: rgba(255, 255, 255, .7);
+	color: #000;
+	text-decoration: none;
+}
+
+#third1 h3, #third2 h3, #third3 h3 {
+	padding-top: 10px;
+	background: #eee;
+	color: #342925;
+	text-decoration: none;
+	border-radius: 10px 10px 0 0;
+}
+
+h5 a {
+	background-image: url('../img/bg1.jpg');
+	padding: 10px 10px 10px 20px;
+	float: right;
+	border-right:solid 8px #88bdb4;
+	color: #fff;
+	font-size: 1.4em;
+	text-decoration: none;
+	text-align: right;
+	-webkit-transition: border-color .5s, color .5s;
+	-moz-transition: border-color .5s, color .5s;
+	-o-transition: border-color .5s, color .5s;
+	transition: border-color .5s, color .5s;
+	position:relative;
+	right: -4%;
+	margin-right: 2%;
+	border-radius: 10px;
+}
+
+h5 a:hover {
+	border-color: #17578b;
+	color: #17578b;
+}
+
+div#gallerysmall {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.bx-wrapper img {
+    margin: 0 auto;
+}
+
+
+h3.worktitles {
+	margin:0;
+	padding: 0;
+	line-height: 1.5;
+}
+
+#column1alt img{
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 3px 3px #898989;
+	margin-bottom: 20px;
+}
+
+a[href^=tel]{ color:#17578b; text-decoration:none;}
+
+div.sectionbreak {
+	border-bottom: #898989 1px solid;
+	margin-bottom: 10px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+span.one {
+	font-family: cursive, 'Halant', Minion, 'Minion Pro', georgia, serif;
+	font-size: 1.1em;
+}
+
+li.review  {
+	list-style: circle;
+	color: #88bdb4;
+}
+
+li.review p {
+	color: #000;
+}
+
+span.reviewer {
+	font-size: .8em;
+	color: #17578b;
+	position: relative;
+	left: 30px;
+	line-height: 0
+}
+
+a.insidelink {
+	text-decoration: none;
+	color: #17578b;
+}
+
+a.insidelink:hover {
+	text-decoration: underline;
+}
+
+/* ----------- Shopping Page CSS --------------------*/
+
+#column1shop img {
+	float: left;
+	width: 44%;
+	border-radius: 10px;
+	box-shadow: 3px 3px #898989;
+}
+
+#column1shop {
+	margin-bottom: 30px;
+}
+
+#column2shop {
+	margin-top: 0;
+}
+
+/* ----------------------- Footer ----------------------- */
+
+footer {
+	margin: 15px 1.5% 30px 1.5%;
+}
+
+img.divider {
+	display: block;
+	width: 263px;
+	margin: 35px auto;
+}
+
+footer ul {
+	display: none;
+}
+
+footer h2 {
+	color: #342925;
+}
+
+span.namefoot {
+	font-size: 1.5em;
+}
+
+div#contact-block {
+	display: block;
+	clear: both;
+	text-align: center;
+	margin-top: 60px;
+}
+
+footer #contact-block p {
+	color: #342925;
+	line-height: 1.5;
+}
+
+footer p {
+	font-size: 1.2em;
+}
+
+
+footer p strong {
+	color: #342925;
+	font-weight: 700;
+}
+
+@media screen and (max-width:350px){
+	h1{
+		clear: both;
+		text-align: center;
+		float: none;
+		padding-bottom: 10px;
+		font-size: 1.8em;
+	}
+
+	#m_logo {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 0;
+	}
+}
+

@@ -97,7 +97,7 @@ ul#socialmedia {
 	-moz-transition: opacity .5s;
 	-o-transition: opacity .5s;
 	transition: opacity .5s;
-	
+
 }
 
 #third3 {
@@ -138,6 +138,10 @@ footer ul li a {
 
 footer ul li a:hover {
 	text-decoration: none;
+}
+
+#maincontent h2 a {
+	width: 30%;
 }
 
 }

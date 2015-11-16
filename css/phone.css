@@ -137,7 +137,7 @@ h3 {
 	background-image: url('../img/bg-stucco.jpg');
 	background-repeat: repeat;
 	opacity: 1;
-
+	width: 75%;
 }
 
 #maincontent h2 a:hover {

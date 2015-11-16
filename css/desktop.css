@@ -101,4 +101,8 @@ div.accent {
 	height: 600px;
 }
 
+#maincontent h2 a {
+	width: auto;
+}
+
 }
